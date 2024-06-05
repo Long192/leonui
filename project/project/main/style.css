@@ -1,0 +1,127 @@
+.banner{
+	text-align: center;
+	margin-left: 2%;
+	font-size: 50px;
+	padding: 2%;
+}
+.choice{
+	text-align: center;
+	list-style-type: none;
+	padding: 2%;
+}
+.choice a{
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	display: inline-block;
+	height: 100px;
+	width: 550px;
+	padding: 1.5%;
+	padding-top: 2%;
+
+}
+.main{
+	background-image: url(img/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	width: auto;
+}
+.choice :hover{
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+}
+.content{
+	background-color: #e4edec;
+	opacity: 0.9;
+
+}
+.row{
+	display: flex;
+	align-items: center;
+}
+.row img{
+	display: flex;
+	width: 130px;
+	height: 130px;
+	float: left;
+	margin: 10%;
+}
+
+.main-menu{
+	display: flex;
+	text-align: right;
+}
+.main-menu li{
+	list-style: none;
+}
+.main-menu li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 24px;
+	color: black;
+}
+.search-box{
+	margin-left: 350px;
+}
+.search-box :focus{
+	outline: none;
+}
+.search-box .sb-sbm{
+	height: 35px;
+	width: 35px;
+	color: transparent;
+	background: transparent url(img/search-512.png) no-repeat center;
+	background-size: contain;
+	border: none;
+}
+.search-box .sb-text{
+	border-radius: 20px;
+	padding: 0 10px;
+	line-height: 35px;
+	width: 250px;
+}
+.regis>label{
+	color: white;
+	font-size: 24px;
+}
+.regis{
+	width: 100%;
+	margin-top: 5%;
+}
+.regis>input{
+	width: 30%;
+	padding: 0.5%;
+}
+.regis>input:focus{
+	outline: none;
+}
+.user{
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	margin: 5px;
+}
+.user :hover{
+	text-decoration: none;
+}
+textarea:focus-visible{
+	outline: none !important;
+}
+textarea{
+	resize: none !important;
+}
+.highlight {
+	font-size: 24px;
+}
+.comment{
+	width: 85%;
+	height: auto;
+	margin: 4%;
+	padding: 1%;
+	display: inline-block;
+	resize: none;
+}
